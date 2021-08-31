@@ -9,7 +9,7 @@
     font-family: "Montserrat" , sans-serif;
     align-items: center;
     justify-content: center;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 nav{
@@ -23,7 +23,7 @@ nav{
 
 }
 
-nav-links
+.nav-links
 {
     display: flex;
     justify-content: space-around;
@@ -59,7 +59,35 @@ nav-links
 .nav-links li a:hover{
     background-color: plum;
 }
-.turtle{
+#turtle{
     font-family:fantasy;
     color: royalblue;
+}
+.duck-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: salmon;
+    border-style: solid;
+
+}
+#duck-text{
+    text-align: center;
+  
+
+
+}
+.blog-text
+{
+    background-color: rgb(170, 125, 118);
+    color: rgb(30, 31, 31);  
+    width: 300px;
+    border: 15px solid rgb(92, 131, 92);
+    padding: 50px;
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+
 }

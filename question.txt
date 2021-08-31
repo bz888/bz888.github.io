@@ -1,0 +1,7 @@
+how come 
+<h1 class="blog-text">Blog_test_1</h1> doesn't work?
+
+how come
+<div class="square blog-text"> doesnt register one of the class on css.
+
+what is the differences between <form> and <div>
