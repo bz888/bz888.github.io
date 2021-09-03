@@ -100,6 +100,7 @@ display: inline-flexbox;
     text-align: center;
     font-size: 80px;
 }
+
 .nav-link-page-1 li {
     list-style: none;
     display: inline-flex;
@@ -123,4 +124,14 @@ nav{
     margin-right: 80px;
     font-size: 30px;
     background-color: rgb(184, 184, 184);
+    width: 100%;
+}
+.body-text-page-1{
+    margin-left: 50px;
+}
+.body-text-page-1 > p{
+    padding-left: 50px;
+}
+.body-text-page-1 > ul{
+    padding-left: 100px;
 }
