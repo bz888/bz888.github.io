@@ -1,0 +1,66 @@
+how come 
+<h1 class="blog-text">Blog_test_1</h1> doesn't work?
+
+
+how come
+<div class="square blog-text"> doesnt register one of the class on css.
+in the even of a conflict, the browser will use whichever CSS declaration came last.
+- <h1 id="orange-text"> in the event of id attribute it will overwrite the class declaration.
+- <h1 style="color: green;"> inline stles will overwrite both tag and class declaration.
+- color: red !important; using !important will override all other css.
+
+what is the differences between <form> and <div>
+
+:root global, can be accessed from any other selector in the style sheet
+
+what does -- mean?
+
+what does an empty line do?
+in context to :
+  .heart::before {
+    content: "";
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+
+What is <meta charset="UTF -8">
+
+What is <meta name="viewport"
+
+difference between link rel and link href?
+
+
+make this work in css
+  <nav class="navbar">
+            <div class="logo"><a href="#">My blog</a></div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+
+        <!--This is for testing purposes, directing within page.--> 
+                <li><a href="#bottom">bottom of page</a></li> 
+
+                <li><a href="page_1.html">Sprint 1</a></li>
+                <li><a href="page_2.html">Sprint 2</a></li>
+                <li><a href="page_3.html">Sprint 3</a></li>
+                <li><a href="page_4.html">Sprint 4</a></li>
+                <li><a href="page_5.html">Sprint 5</a></li>
+                <!--Can try image that links to another link
+                <a href="page_1.html"><img src="___.png" alt=""
+                -->
+
+            <!--mobile menu bar 
+                
+                    <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="icon menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+            -->
+            </ul>
+        </nav>

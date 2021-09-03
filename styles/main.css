@@ -1,3 +1,94 @@
-body{background-color: rgb(96, 87, 105);
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-header{font-style: oblique;}
+
+.body-text{
+    display: flex;
+    font-family: "Montserrat" , sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30vh;
+    background-color: cornflowerblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.nav-links
+{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+.nav-links li
+{
+    list-style: none;
+    display: inline;
+   
+
+}
+.heading{
+    color: rgb(109, 69, 69);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+ 
+}
+.nav-links a{
+    color: rgb(77, 45, 45);
+    text-decoration: navy;
+    letter-spacing: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+.nav-links li a.active{
+    background-color: orange;
+
+}
+.nav-links li a:hover{
+    background-color: plum;
+}
+#turtle{
+    font-family:fantasy;
+    color: royalblue;
+}
+.duck-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: salmon;
+    border-style: solid;
+
+}
+#duck-text{
+    text-align: center;
+    padding: 40px;
+  
+
+
+}
+.blog-text
+{
+    background-color: rgb(170, 125, 118);
+    color: rgb(30, 31, 31);  
+    width: 300px;
+    border: 15px solid rgb(92, 131, 92);
+    padding: 50px;
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+
+}
