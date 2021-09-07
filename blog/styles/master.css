@@ -87,10 +87,24 @@ div.flex-container{
     list-style: georgian;
     margin-top: 100px;
 }
+
+.test-page-btn{
+    cursor: pointer;
+}
+
+.test-page {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
 /* page 1*/
 .blog-test-2{
     width: 800px;
-display: inline-flexbox;
+display: inline-flex;
 
 }
 .blog-test-1{
@@ -134,4 +148,208 @@ nav{
 }
 .body-text-page-1 > ul{
     padding-left: 100px;
+}
+
+/* page_2 */
+
+.flex-container-p2 {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  
+   z-index: 2;
+  }
+  
+
+  .flex-container-p2 a:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: 0.8s ease-in-out;
+    color: rgba(188, 143, 143, 0.521);
+    
+  }
+
+  .flex-container-p2 > a {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    transition: 0.5s ease-out;
+    transform: scale(1);
+    opacity: 1;
+
+  }
+div.flex-container-p2{
+   
+    position: sticky;
+    top: 0;
+    
+    padding: 0px;
+    
+}
+
+.page1-p2{
+    display: none;
+    background-color: rgb(140, 140, 140);
+}
+.page2-p2{
+    background-color: rgb(110, 110, 110);
+}
+.page3-p2{
+    background-color: rgb(80, 80, 80);
+}
+.page4-p2{
+    background-color: rgb(50, 50, 50);
+}
+.page5-p2{
+    background-color: rgb(20, 20, 20);
+}
+.home {
+    background-color: rgb(170, 170, 170);
+}
+.lp-list{
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+/* test_page */
+
+#page-content{
+    background-color: rgb(236, 236, 236) !important;
+overflow: hidden;
+}
+
+#page-content li {
+list-style: none;
+}
+
+#page-content a{
+    float: left;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#page-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+#page-content a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+/* fielset, tweet box*/
+.tweet{
+    font-family: 'Space Mono', monospace;
+    
+  
+}
+header, footer{
+    display: flex;
+    flex-direction: row;
+}
+header .view-btn{
+    display: flex;
+    margin: 0 0 0 auto;
+}
+header .view-btn button{
+    border: 0;
+    border-radius: 3px;
+    padding: 50px;
+}
+header .view-btn button:hover{
+    background-color: thistle;
+}
+header a:hover{
+    opacity: 0.5;
+}
+header h3, header h4{
+    display: flex;
+    margin: 0;
+}
+#inner p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#inner hr{
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+}
+footer .stats{
+    font-size: 18px;
+    display: inline-flex;
+    margin-left: 10px;
+}
+footer .stats strong{
+    font-size: 18px;
+}
+footer .stats .likes{
+    margin-left: 10px;
+}
+
+footer .cta {
+    margin-left: auto;
+    font-size: 15px;
+
+}
+footer .cta button{
+    border: 0;
+    background: transparent;
+}
+header .profile-thumbnail{
+width: 100px;
+height: 100px;
+border-radius: 4px;
+}
+header .profile-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.visit-btn{
+    cursor:pointer;
+}
+
+/* ball animations*/
+
+.balls{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    z-index: 3;
+}
+#c1 {
+    background: rgb(143, 76, 76);
+    left: 27%;
+    animation-timing-function: linear;
+  }
+#c2 {
+    background: rgb(169, 172, 167);
+    left: 56%;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes bounce {
+    0% {
+      top: 0px;
+    }
+    100% {
+      top: 100%;
+    }
+    0%{
+        top: 0px;
+    }
 }
