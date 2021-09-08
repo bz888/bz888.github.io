@@ -11,6 +11,7 @@
 
     <main>
     
+
         <div class="flex-container-p2">
             <a class="home" href="../index.html"></a>
             <a class="page1-p2" href="page_1.html"></a>
@@ -28,9 +29,14 @@
             </ul>
         </nav>
 
+        <div class="search-bar">
+            <input type="search" name="search" id="search" placeholder="navigator" tabindex="1">
+            <input type="submit" name="submit" value="submit" id="submit" tabindex="2">
+        </div>
+
         <section id="questions">
             <form action="submission_page.html">
-                <fieldset>
+                <fieldset class="btns">
                     <legend>Buttons</legend> 
                     <br>
                     <label for="button 1"><input id="button 1" type="radio" name="test-radio-buttons" value="button 1">button 1</label>
@@ -126,11 +132,90 @@
         </footer>
      </fieldset>
 
-     <input type="search" name="search" id="search" placeholder="navigator" tabindex="1">
-     <input type="submit" name="submit" value="submit" id="submit" tabindex="2">
+    
 
         <article tabindex="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</article>
-        <footer>good day</footer>
+        <footer class="test-page-ft">good day</footer>
+
+        <div class="container">
+            <header>
+              <h1 id="title">hello friends</h1>
+              <p id="description"></p>
+            </header>
+            <form id=survey-form action="submission_page.html">
+              <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" class="form-content"     placeholder="Name" required>
+              </div>
+              
+              <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input id="email" type="email" class="form-content" placeholder="Email" required>
+              </div>  
+              <div class="form-group">
+                <label id="number-label" for="number">Age</label>
+                <input id="number" type="number" class="form-content" placeholder="Age" min="1" max="99" required>
+              </div>
+              
+              <div class="form-group">
+                <p>Which option best describes your favortie pizza?</p>
+                <select id="dropdown" name="pizza" class="form-content" required>
+                  <option disabled selected value>Select current pizza</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">Prefer not to say</option>
+                  <option value="5">Other</option>
+                </select>
+              </div>
+              
+                <div class="form-group">
+                  <label id="radio-btn" for="btn">button</label>
+                  
+                  <label><input name="radio" value="radio-btn1" type="radio" class="input-radio" checked>1</label>
+                   <label><input name="radio"value="radio-btn2" type="radio" class="input-radio">2</label>
+                   <label><input name="radio"value="radio-btn3" type="radio" class="input-radio">3</label>
+              </div>
+              
+              <div class="form-group">
+                <p>hello</p>
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="comments"></textarea>
+              </div>
+              
+              <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">submit</button>
+              </div>
+                </form>
+           
+        <div class="video-description"></div>
+            <p class="description">a very cool video</p>
+                <video class="video" controls>
+                    <source src="../images/eggman no.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+        </div>
+
+        <div id="box-container">
+            <div id="b-1"></div>
+            <div id="b-2"></div>
+            <div id="b-3"></div>
+            <div id="b-4"></div>
+            <div id="b-5"></div>
+            <div id="b-6"></div>
+        </div>
+        <figcaption>flexbox</figcaption>
+
+        <div class="grid-container">
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+          </div>
+          <figcaption>grids</figcaption>
+
+
+          </div>
     </main>
 
 
