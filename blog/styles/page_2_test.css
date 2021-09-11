@@ -173,6 +173,11 @@ a {
 
 /* inline-block section */
 
+.inline-block-example{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .inline-block {
     display: flex;
     flex-direction: column;
@@ -240,4 +245,8 @@ a {
    vertical-align: middle;
     margin: 0 auto;
   
+}
+.block-example{
+  margin-left: auto;
+  margin-right: auto;
 }

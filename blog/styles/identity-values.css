@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-size: 1.8rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.4;
+    
+    margin-right: 300px;
+    
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+/* nav bar */
+#navbar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    border-left: solid;
+    border-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 100%;
+}
+#navbar ul{
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+  
+#navbar li{
+    color: #4d4e53;
+    border-top: 0.5px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    cursor: pointer;
+    padding: 10px 30px;  
+}
+
+
+h2{
+    font-size: 110px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    
+}
+.core-values{
+    border: solid;
+    margin-left: 20px;
+    margin-right: 70px;
+    height: 100vh;
+}
+
+.header{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+}
+.family{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.5);
+    
+    filter: grayscale(100%);
+}
+
+.strengths-limitations{
+    margin-top: 70px;
+    border: solid;
+    margin-left: 20px;
+    margin-right: 70px;
+    height: 100vh;
+}
+
+.list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    width: 80rem;
+}
+
+.list ul{
+    list-style: none;
+    line-height: 40px;
+}
+
+.strengths-limitations p {
+    margin-top: 50px;
+}
+strong{
+    font-size: 20px;
+}
+
+.timestamp{
+    margin-left: 20px;
+}
+
+#fixedbtn{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 34rem;
+    z-index: 10;
+    font-size: 20px;
+    border: solid;
+    background: white;
+    cursor: pointer;
+    padding: 15px;
+}
+#fixedbtn:hover {
+    background: black;
+    color: white;
+}
