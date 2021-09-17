@@ -62,6 +62,9 @@ p {
 #active:checked ~ .wrapper{
   clip-path: circle(75%);
 }
+
+
+
 .menu-btn{
   position: absolute;
   z-index: 2;
@@ -137,6 +140,8 @@ input[type="checkbox"]{
 }
 
 
+
+
 /* couldn't get it to work
 .drop-btn{
     top: 0;
@@ -180,3 +185,74 @@ input[type="checkbox"]{
 } 
 
 */
+
+/* EQ page */
+
+
+h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
+.eq{
+  width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+  line-height: 40px;
+  margin-top: 30px;
+
+}
+.eq ul {
+  list-style: none;
+  margin-left: 90px;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.eq li {
+  font-size: 20px;
+  color: rgb(63, 63, 63);
+  margin-left: 30px;
+}
+p {
+  font-size: 20px;
+  color: black;
+}
+/*js blog page*/
+.dom-head{
+  font-size: 110px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.jsdom{
+  width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+  line-height: 40px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+}
+.jsdom ul {
+  list-style: none;
+  margin-left: 90px;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.jsdom li {
+  font-size: 20px;
+  color: rgb(63, 63, 63);
+  margin-left: 30px;
+}
+
+.jsdom-p{
+  font-size: 25px;
+  margin-top: 30px;
+}
