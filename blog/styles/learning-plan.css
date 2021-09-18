@@ -256,3 +256,16 @@ p {
   font-size: 25px;
   margin-top: 30px;
 }
+.dom-img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.control-chart{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
