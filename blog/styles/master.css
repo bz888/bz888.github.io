@@ -54,25 +54,32 @@ div.flex-container{
 
   .page1{
     display: none;
-    background-color: rgb(140, 140, 140);
+    background-color: rgb(160, 160, 160);
 }
   .page2{
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(140, 140, 140);
 }
 .page3{
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(120, 120, 120);
 }
 .page4{
-    background-color: rgb(60, 60, 60);
+    background-color: rgb(100, 100, 100);
 }
 .page5{
-    background-color: rgb(40, 40, 40);
-
+   
+    background-color: rgb(80, 80, 80);
 }
 
 .page6{
+    background-color: rgb(60, 60, 60);
+}
+.page7{
+    background-color: rgb(40, 40, 40);
+}
+.page8{
     background-color: rgb(20, 20, 20);
 }
+
 
 .index_page_ref{
     
