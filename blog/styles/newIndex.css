@@ -1,0 +1,434 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 
+body{
+    background-color: white;
+} */
+
+.show-btn{
+    border: black;
+    border-style: solid;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+
+    position: fixed;
+    top: 100px;
+    right: 8rem;
+
+    cursor: pointer;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    z-index: 1000;
+
+}
+
+
+.show-btn .dot{
+    background-color: black;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    display: block;
+}
+
+
+
+#blog-title{
+   align-self: flex-start;
+   text-transform: uppercase;
+   font-size: 8rem;
+   margin-bottom: 80px;
+   margin-top: 80px;
+}
+#break{
+    flex-basis: 100%;
+    height: 0;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-between;
+    align-content: space-around;
+
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#box-1{
+    border: black;
+    border-style: solid;
+    width: 500px;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#box-2{
+    border: black;
+    border-style: solid;
+    width: 500px;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#box-3{
+    border: black;
+    border-style: solid;
+    width: 500px;
+    height:500px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#box-4{
+    border: black;
+    border-style: solid;
+    width: 500px;
+    height:500px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+#box-1 .tech{
+    background-color: rgb(200, 200, 200);
+    position: relative;
+    width: 90%;
+    height: 90%;
+    /* display: block; */
+    /* z-index: 99; */
+
+    transition: 0.5s ease-out;
+    transform: scale(1);
+    opacity: 1;
+}
+.tech-text{
+    transition: 0.5s ease-out;
+    transform: scale(1);
+    opacity: 1;
+}
+
+#box-1 a:hover{
+    opacity: 0.5;
+    transform: scale(1.11);
+    transition: 0.8s ease-in-out;
+}
+
+#box-2 .learning-core{
+    background-color: rgb(150, 150, 150);
+    position: relative;
+    width: 90%;
+    height: 90%;
+    /* display: block; */
+    /* z-index: 99; */
+
+    transition: 0.5s ease-out;
+    transform: scale(1);
+    opacity: 1;
+}
+
+#box-2 a:hover{
+    opacity: 0.5;
+    transform: scale(1.11);
+    transition: 0.8s ease-in-out;
+}
+#box-3 .games{
+    background-color: rgb(100, 100, 100);
+    position: relative;
+    width: 90%;
+    height: 90%;
+    /* display: block; */
+    /* z-index: 99; */
+
+    transition: 0.5s ease-out;
+    transform: scale(1);
+    opacity: 1;
+}
+
+#box-3 a:hover{
+    opacity: 0.5;
+    transform: scale(1.11);
+    transition: 0.8s ease-in-out;
+}
+
+#box-4 .wasteland{
+    background-color: rgb(50, 50, 50);
+    position: relative;
+    width: 90%;
+    height: 90%;
+    /* display: block; */
+    /* z-index: 99; */
+
+    transition: 0.5s ease-out;
+    transform: scale(1);
+    opacity: 1;
+}
+
+#box-4 a:hover{
+    opacity: 0.5;
+    transform: scale(1.11);
+    transition: 0.8s ease-in-out;
+}
+
+
+#box-1-des{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    display: none;
+
+    text-decoration: none;
+    color: white;
+}
+#box-2-des{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    display: none;
+
+    text-decoration: none;
+    color: white;
+}
+#box-3-des{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    display: none;
+
+    text-decoration: none;
+    color: white;
+}
+#box-4-des{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    display: none;
+
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#colour-box-1{
+    display: block;
+}
+#colour-box-2{
+    display: block;
+}
+#colour-box-3{
+    display: block;
+}
+
+/* tech skill page */
+
+.home{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-top: 100px;
+
+}
+.home a:hover{
+    transform:scale(3);
+    transition: 0.8s ease-in-out;
+
+}
+#home-box{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(100, 100, 100);
+    /* display: none; */
+}
+.box-out{
+    transform:scaleX(1);
+    transition: 0.8s ease-in-out;
+}
+
+#home-text{
+    display: none;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#tech-page-title{
+    margin-left: 16rem;
+    text-transform: uppercase;
+    margin-top: 90px;
+    font-size: 100px;
+}
+.box-container{
+    display: flex;
+    width: 95rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: space-around;
+    position: relative;
+    top: 10rem;
+    flex-wrap: wrap;
+}
+.box-container > div{
+    height: 350px;
+    width: 350px;
+    /* border: black;
+    border-style: solid; */
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box-container > div .box-box{
+    position: relative;
+    
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    transition: 0.5s ease-out;
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+.box-text{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+    display: none;
+}
+.box-container a:hover{
+    /* opacity: 0.5; */
+    transform: scale(0.9);
+    transition: 0.8s ease-in-out;
+}
+
+#box-box-1{
+    background-color: rgb(100, 100, 100);
+    z-index: 2;
+}
+#box-box-2{
+    background-color: rgb(120, 120, 120);
+    z-index: 2;
+}
+#box-box-3{
+    background-color: rgb(140, 140, 140);
+    z-index: 2;
+}
+#box-box-4{
+    background-color: rgb(160, 160, 160);
+    z-index: 2;
+}
+
+#box-box-5{
+    background-color: rgb(60, 60, 60);
+}
+
+.box-text{
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+
+#empty{
+    flex-basis: 100%;
+    height: 0;
+}
+
+/* games-page */
+.game-container{
+    display: flex;
+    width: 95rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: space-around;
+    top: 10rem;
+    position: relative;
+}
+.game-container a:hover{
+
+    transform: scale(0.9);
+    transition: 0.8s ease-in-out;
+}
+.game-container > div{
+    height: 350px;
+    width: 350px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.game-box{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+    transition: 0.5s ease-out;
+    transform: scale(1);
+    opacity: 1;
+}
+.game-text{
+    position:relative; 
+    font-size: 20px;
+    display: none;
+    text-decoration: none;
+
+    color: rgb(255, 100, 70);
+}
+#game-box-1{
+    background-color: rgb(255, 100, 70);
+}
+#game-box-2{
+    background-color: rgb(255, 150, 130);
+}
+#game-box-3{
+    background-color: rgb(255, 200, 190);
+}
+
+
+#home-box-game{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(255, 175, 161);
+    /* display: none; */
+}
+
+/* #game_page{
+    background-color: white;
+} */
+#game-page-title{
+    margin-left: 27rem;
+    font-size: 100px;
+    margin-top: 90px;
+}
+
+#home-text-game{
+    display: none;
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 100, 70);
+    font-size: 25px;
+}

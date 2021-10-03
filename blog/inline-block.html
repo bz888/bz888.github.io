@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>inline-vs-inline-block</title>
+        <link rel="stylesheet" href="styles/tech_page.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    
+        <nav id="navbar">
+            <ul class="nav-list">
+                <li><a href="../index.html">Home</a></li>
+                <li> <a href="wasteland.html">Wasteland</a></li>
+                <li><a href="tech_skill_page.html">Tech Skills</a></li>
+                <li> <a href="games_page.html">Interactives</a></li>
+                <li> <a href="learning_core_page.html">Culture Blogs</a></li>
+                <li></li>
+                <li class="break">Page Contents:</li>
+                <li><a href="#inline" class="nav-links-p2">Inline</a></li>
+                <li><a href="#inline-block" class="nav-links-p2">Inline-Block</a></li>
+                <li><a href="#block" class="nav-links-p2">Block</a></li>
+
+               
+            </ul>
+        </nav> 
+    </head>
+    
+    <body>
+        <section id="inline" class="inline">
+
+            <h1 class="inline-section"><code>display: inline</code></h1>
+
+            <p class="description-p2">
+                The display property specifies the display behavior of an element.
+                <br> 
+                In the case of <code>display:inline</code>, it displays an element (e.g. span, a, img) in the same line as other elements. 
+                However, any height and width properties will not take effect. 
+                Also, with <code>display: inline</code> both the top and bottom margins/paddings are not respective.
+            </p>
+
+            <div class="inline-example">
+                Example
+                <p>
+                Exercitation ad qui sunt ipsum laboris mollit reprehenderit.Velit ullamco mollit nostrud enim eu proident mollit aliquip eiusmod sint eu. 
+                <br><span class="inline-example-d" style="display: inline; width: 100px; height: 160px; padding: 18px;">Cupidatat</span>
+                <span class="inline-example-d" style="display: inline; width: 100px; height: 160px; padding: 18px;">adipisicing</span>
+                Ut magna ipsum ea consectetur aliqua duis occaecat laboris non anim quis consectetur esse quis.
+                </p>
+            </div>
+
+        </section>
+
+        <section id="inline-block" class="inline-block">
+
+            <h1 class="inline-block-section"><code>display: inline-block</code></h1>
+
+            <p class="description-p2">
+                Both <code>display: inline</code> and <code>display: inline-block</code> allow the element to be placed side by side (same line). 
+                However, unlike <code>inline</code>, <code>inline-block</code> allows you to set a width and height property on the element. 
+                Also, with <code>inline-block</code>, both the top and bottom margins/paddings are respected.
+            </p>
+
+            <div class="inline-block-example">
+                Example
+                <p>
+                    Exercitation ad qui sunt ipsum laboris mollit reprehenderit.Velit ullamco mollit nostrud enim eu proident mollit aliquip eiusmod sint eu. 
+                <br>
+                <span class="inline-block-example-d" style="display: inline-block; ;">Cupidatat</span>
+                <span class="inline-block-example-d" style="display: inline-block; ">adipisicing</span>
+                Ut magna ipsum ea consectetur aliqua duis occaecat laboris non anim quis consectetur esse quis.
+            </p>
+                
+            </div>
+
+        </section>
+
+
+        <section id="block" class="block">
+            <h1 class="block-section"><code>display: block</code></h1>
+
+            <p class="description-p2">
+                Compared, <code>inline-block</code>, <code>block</code> would add a line-break after the element, 
+                however, both margins/padding will remain respective. 
+                Similar to <code>inline-block</code>, <code>block</code> allows you to set a height and width property to the element.
+            </p>
+
+            <div class="block-example">
+                    Example
+                <p class="description-p2">
+                    Exercitation ad qui sunt ipsum laboris mollit reprehenderit.Velit ullamco mollit nostrud enim eu proident mollit aliquip eiusmod sint eu. 
+                    <br>
+                    <span class="block-example-d" style="display: block; ;">Cupidatat</span>
+                    <span class="block-example-d" style="display: block; ">adipisicing</span>
+                    Ut magna ipsum ea consectetur aliqua duis occaecat laboris non anim quis consectetur esse quis.
+                </p>
+                    
+                
+            </div>
+            
+        </section>
+
+    </body>
+
+
+</html>
