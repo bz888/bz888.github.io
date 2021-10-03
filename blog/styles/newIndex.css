@@ -285,6 +285,7 @@ body{
     align-content: space-around;
     position: relative;
     top: 10rem;
+    flex-wrap: wrap;
 }
 .box-container > div{
     height: 350px;
@@ -340,9 +341,18 @@ body{
     z-index: 2;
 }
 
+#box-box-5{
+    background-color: rgb(60, 60, 60);
+}
+
 .box-text{
     transform: scale(1);
     transition: 0.8s ease-in-out;
+}
+
+#empty{
+    flex-basis: 100%;
+    height: 0;
 }
 
 /* games-page */

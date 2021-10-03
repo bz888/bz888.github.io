@@ -135,3 +135,12 @@ strong{
     background: black;
     color: white;
 }
+
+.break{
+    display: block;
+    padding: 10px 30px;  
+    font-weight: bold;
+  }
+  .empty{
+    margin: 10px 30px;  
+  }

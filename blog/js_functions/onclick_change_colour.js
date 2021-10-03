@@ -8,9 +8,12 @@ function groupFunction(clicked){
     if(clicked.target.id == 'show'){
         changeColour();
     } 
-    else if(clicked.target.id == 'showTech' || clicked.target.id == 'showCore'){
-    invertPage();
-    } else if(clicked.target.id == 'showGames'){
+    else if(clicked.target.id == 'showTech'){
+        invertTechPage();
+    } else if(clicked.target.id == 'showCore'){
+        invertCulturePage();
+    }
+    else if(clicked.target.id == 'showGames'){
         invertGames();
     }
 }
@@ -64,17 +67,19 @@ function changeColour(){
     }
 }
 
-function invertPage(){
+function invertCulturePage(){
 
     let boxBoxOne = document.getElementById('box-box-1');
     let boxBoxTwo = document.getElementById('box-box-2');
     let boxBoxThree = document.getElementById('box-box-3');
     let boxBoxFour = document.getElementById('box-box-4');
-
+    let boxBoxFive = document.getElementById('box-box-5');
+    
     let textShowOne = document.getElementById('box-text-1');
     let textShowTwo = document.getElementById('box-text-2');
     let textShowThree = document.getElementById('box-text-3');
     let textShowFour = document.getElementById('box-text-4');
+    let textShowFive = document.getElementById('box-text-5');
     
     let getHomeBox = document.getElementById('home-box');
     let getHomeText = document.getElementById('home-text');
@@ -88,6 +93,7 @@ function invertPage(){
         boxBoxTwo.style.display ='none';
         boxBoxThree.style.display ='none';
         boxBoxFour.style.display ='none';
+        boxBoxFive.style.display = 'none';
 
         getHomeBox.style.display = 'none';
 
@@ -95,6 +101,68 @@ function invertPage(){
         textShowTwo.style.display = "block";
         textShowThree.style.display = "block";
         textShowFour.style.display = "block";
+        textShowFive.style.display = 'block';
+
+        getHomeText.style.display = "block";
+
+    }else if(showFilter > 0){
+        showFilter = 0;
+        base.style.filter = "invert(0%)"
+
+        boxBoxOne.style.display ='block';
+        boxBoxTwo.style.display ='block';
+        boxBoxThree.style.display ='block';
+        boxBoxFour.style.display ='block';
+        boxBoxFive.style.display = 'block';
+        
+        getHomeBox.style.display = 'block';
+
+        textShowOne.style.display = "none";
+        textShowTwo.style.display = "none";
+        textShowThree.style.display = "none";
+        textShowFour.style.display = "none";
+        textShowFive.style.display = 'none';
+
+        getHomeText.style.display = 'none';
+
+        console.log(showFilter);
+    }
+}
+function invertTechPage(){
+
+    let boxBoxOne = document.getElementById('box-box-1');
+    let boxBoxTwo = document.getElementById('box-box-2');
+    let boxBoxThree = document.getElementById('box-box-3');
+    let boxBoxFour = document.getElementById('box-box-4');
+
+    
+    let textShowOne = document.getElementById('box-text-1');
+    let textShowTwo = document.getElementById('box-text-2');
+    let textShowThree = document.getElementById('box-text-3');
+    let textShowFour = document.getElementById('box-text-4');
+
+    
+    let getHomeBox = document.getElementById('home-box');
+    let getHomeText = document.getElementById('home-text');
+
+    if(showFilter == 0){
+        showFilter ++;
+
+        base.style.filter = "invert(100%)";
+
+        boxBoxOne.style.display ='none';
+        boxBoxTwo.style.display ='none';
+        boxBoxThree.style.display ='none';
+        boxBoxFour.style.display ='none';
+ 
+
+        getHomeBox.style.display = 'none';
+
+        textShowOne.style.display = "block";
+        textShowTwo.style.display = "block";
+        textShowThree.style.display = "block";
+        textShowFour.style.display = "block";
+
 
         getHomeText.style.display = "block";
 
@@ -107,12 +175,14 @@ function invertPage(){
         boxBoxThree.style.display ='block';
         boxBoxFour.style.display ='block';
 
+        
         getHomeBox.style.display = 'block';
 
         textShowOne.style.display = "none";
         textShowTwo.style.display = "none";
         textShowThree.style.display = "none";
         textShowFour.style.display = "none";
+
 
         getHomeText.style.display = 'none';
 
