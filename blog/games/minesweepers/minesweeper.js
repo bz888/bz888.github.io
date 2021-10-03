@@ -1,38 +1,10 @@
 document.addEventListener('DOMContentLoaded', startGame)
 
-// Define your `board` object here!
-
 var board = {
   cells: []
 }
 
 function createBoard() {
-  //this function is for creating the cell values
-
-  //need a for loop
-  // var for number of cellls
-  //row
-  //col
-
-  
-  // var noOfRows = 2;
-  // var noOfColumns = 2;
-
-  // for (let i = 0; i < noOfRows; i++) {
-  //   for (let j = 0; j < noOfColumns; j++) {
-  //     board.cells.push(
-  //       {
-  //         row: i,
-  //         col: j,
-  //         isMine: Math.random() < 0.25 ? true : false,
-  //         isMarked: false,
-  //         hidden: true,
-  //         surroundingMines: 0,
-
-  //       }
-  //     )
-  //   }
-  // }
 
   var numberOfCells = 36;
   var grid = Math.sqrt(numberOfCells);
@@ -56,9 +28,6 @@ function createBoard() {
       }
       return board;
     }
-    
-   
-    
 
     function startGame() {
 

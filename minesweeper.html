@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="blog/games/minesweepers/minesweeper.css">
+    <script src="blog/games/minesweepers/lib/tests.js"></script>
+    <script src="blog/games/minesweepers/lib/lib.js"></script>
+    <script src="blog/games/minesweepers/minesweeper.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <nav>
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+    
+    <div class="wrapper">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li> <a href="blog/wasteland.html">Wasteland</a></li>
+            <li><a href="blog/tech_skill_page.html">Tech Skills</a></li>
+            <li> <a href="blog/games_page.html">Interactives</a></li>
+            <li> <a href="blog/learning_core_page.html">Culture Blogs</a></li>
+        </ul>
+    </div>
+
+  </nav>
+  <body>
+    <div id="message"></div>
+    <div id="notes"></div>
+    <div class="board"></div>
+    <button class= "restart-btn unexpected-2">Play Again?</button>
+  </body>
+
+  <audio id="win">
+    <source src="blog/games/minesweepers/mine_images/win.mp3">
+  </audio>
+
+  <audio id="boom">
+    <source src="blog/games/minesweepers/mine_images/boom.mp3">
+  </audio>
+
+  <audio id="click">
+    <source src="blog/games/minesweepers/mine_images/click.mp3">
+  </audio>
+
+  <audio id="marked">
+    <source src="blog/games/minesweepers/mine_images/blop.mp3">
+  </audio>
+</html>
