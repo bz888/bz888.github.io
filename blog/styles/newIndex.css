@@ -353,11 +353,13 @@ body{
 #empty{
     flex-basis: 100%;
     height: 0;
+    width: 0;
 }
 
 /* games-page */
 .game-container{
     display: flex;
+    flex-wrap: wrap;
     width: 95rem;
     margin-left: auto;
     margin-right: auto;
@@ -407,7 +409,15 @@ body{
 #game-box-3{
     background-color: rgb(255, 200, 190);
 }
-
+#game-box-4{
+    background-color: rgb(255, 134, 112);
+}
+#game-box-5{
+    background-color: rgb(255, 197, 187);
+}
+#game-box-6{
+    background-color: rgb(255, 129, 107);
+}
 
 #home-box-game{
     width: 50px;
