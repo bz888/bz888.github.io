@@ -197,6 +197,7 @@ function invertGames(){
     let gameTextFour = document.getElementById('game-text-4');
     let gameTextFive = document.getElementById('game-text-5');
     let gameTextSix = document.getElementById('game-text-6');
+    let gameTextSeven = document.getElementById('game-text-7');
 
     let gameBoxOne = document.getElementById('game-box-1');
     let gameBoxTwo = document.getElementById('game-box-2');
@@ -204,6 +205,7 @@ function invertGames(){
     let gameBoxFour = document.getElementById('game-box-4');
     let gameBoxFive = document.getElementById('game-box-5');
     let gameBoxSix = document.getElementById('game-box-6');
+    let gameBoxSeven = document.getElementById('game-box-7');
 
     let gameHomeBox = document.getElementById('home-box-game');
     let gameHomeText = document.getElementById('home-text-game');
@@ -220,6 +222,7 @@ function invertGames(){
         gameTextFour.style.display = 'block';
         gameTextFive.style.display = 'block';
         gameTextSix.style.display = 'block';
+        gameTextSeven.style.display = 'block';
 
         gameBoxOne.style.display = 'none';
         gameBoxTwo.style.display = 'none';
@@ -227,6 +230,7 @@ function invertGames(){
         gameBoxFour.style.display = 'none';
         gameBoxFive.style.display = 'none';
         gameBoxSix.style.display = 'none';
+        gameBoxSeven.style.display = 'none';
 
         gameHomeBox.style.display = 'none';
         gameHomeText.style.display = 'block';
@@ -241,13 +245,15 @@ function invertGames(){
         gameTextFour.style.display = 'none';
         gameTextFive.style.display = 'none';
         gameTextSix.style.display = 'none';
+        gameTextSeven.style.display = 'none';
 
         gameBoxOne.style.display = 'block';
         gameBoxTwo.style.display = 'block';
         gameBoxThree.style.display = 'block';
         gameBoxFour.style.display = 'block';
-        gameBoxFour.style.display = 'block';
-        gameBoxFour.style.display = 'block';
+        gameBoxFive.style.display = 'block';
+        gameBoxSix.style.display = 'block';
+        gameBoxSeven.style.display = 'block';
 
         gameHomeBox.style.display = 'block';
         gameHomeText.style.display = 'none';
