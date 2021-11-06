@@ -65,6 +65,100 @@ body{
 
 }
 
+@media only screen and (max-width: 320px)  and (orientation: portrait){
+    .flex-box {
+       /* flex-direction: column; */
+       width: 20px;
+        margin-left: 45px;
+        margin-right: 45px;
+       flex-wrap: nowrap;
+
+    }
+    #blog-title{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    .show-btn{
+        top: 90px;
+        margin-left: 15px;
+        margin-right: 15px;
+        left: 190px;
+
+    }
+    #box-1{
+        width: 230px !important;
+        height: 230px !important; 
+        
+
+    }
+    #box-2{
+        width: 230px !important;
+        height: 230px !important; 
+        margin-top: 30px !important;
+    }
+    #box-3{
+        width: 230px !important;
+        height: 230px !important; 
+        margin-top: 30px !important;
+    }
+    #box-4{
+        width: 230px !important;
+        height: 230px !important; 
+        margin-top: 30px !important;
+        
+    }
+    #box-1-des{
+        font-size: 20px !important;
+    }
+    #box-2-des{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    #box-3-des{
+        font-size: 20px !important;
+    }
+    #box-4-des{
+        font-size: 20px !important;
+    }
+ }
+ @media only screen and (max-width: 768px) and (orientation: portrait){
+    .flex-box {
+        width: 30rem;
+         margin-left: 70px;
+         margin-right: 35px;
+        flex-wrap: wrap;
+     }
+    .show-btn{
+         top: 115px;
+         margin-left: 15px;
+         margin-right: 15px;
+         right: 10rem;
+ 
+     }
+     #box-2{
+        width: 500px;
+        margin-top: 100px !important;
+    }
+ }
+@media only screen and (min-width: 1200px) and (orientation: portrait){
+    .flex-box {
+        display: flex;
+        flex-wrap: wrap;
+       
+        justify-content: space-between;
+        align-content: space-around;
+    
+        width: 70rem;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+ }
+
+
 #box-1{
     border: black;
     border-style: solid;
